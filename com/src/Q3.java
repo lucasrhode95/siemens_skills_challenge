@@ -1,3 +1,5 @@
+package src;
+
 public class Q3 {
 
     public static void main(String[] args) {
@@ -13,9 +15,9 @@ public class Q3 {
     /*
     Tells whether a string can be transformed in another in exact K operations
      */
-    private static boolean concatRemove(String inputString, String desiredString, int targetOps) {
+    public static boolean concatRemove(String inputString, String desiredString, int targetOps) {
         // we're only allowed to add lowercase alpha chars
-        if (!desiredString.matches("[a-z]+")) {
+        if (!desiredString.isEmpty() && !desiredString.matches("[a-z]+")) {
             System.out.println("Desired string must contain only letters");
             return false;
         }
