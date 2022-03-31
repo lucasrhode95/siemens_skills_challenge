@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class Q3Test {
+class Q4 {
 
     @Test
     void concatRemove() {
